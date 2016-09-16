@@ -1,0 +1,4 @@
+- Better error handling
+- Support all features of a cog bundle (logging, services, etc.)
+- Add tests
+- Maybe add a `Command` trait and implement common case for `Fun(cog::Args, cog::Opts)`.
