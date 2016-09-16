@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running for use in 
 
 ### Prerequisities
 
-```
+```toml
 # Cargo.toml
 [dependencies]
 cog = "0.1"
@@ -18,7 +18,7 @@ cog = "0.1"
 
 Write your bundle:
 
-```
+```rust
 // main.rs
 extern crate cog;
 
@@ -42,7 +42,7 @@ fn hello_word(args: cog::Args, opts: cog::Opts) {
 
 Use the resulting executable in cog's `config.yaml`:
 
-```
+```yaml
 commands:
   hello:
     executable: /usr/local/bin/my-bundle
