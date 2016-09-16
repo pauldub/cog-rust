@@ -5,7 +5,7 @@ authors = ["Paul d'Hubert <paul@tymate.com>"]
 homepage = "https://github.com/pauldub/cog-rust"
 repository = "https://github.com/pauldub/cog-rust"
 license = "MIT"
-desrcription = "Simple, opiniated library for building Cog commands in rust."
+description = "Simple, opiniated library for building Cog commands in rust."
 
 [dependencies]
 rustc-serialize = "^0.3"
