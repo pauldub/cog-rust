@@ -31,7 +31,7 @@ fn main() {
 
 // cog::Args is a Vec<String> and cog::Opts a HashMap<String,String>
 fn hello_word(args: cog::Args, opts: cog::Opts) {
-  match cog.get("name") {
+  match opts.get("name") {
     Some(name) =>
       cog::write(&format!("hello {}", name)),
     None =>
